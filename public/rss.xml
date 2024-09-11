@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>sharkcat</title>
+        <link>https://sharkcat.neocities.org</link>
+        <description>sharkcat on neocities</description>
+        <language>en-au</language>
+
+        <item>
+            <title>sharkcat v4</title>
+            <link>https://sharkcat.neocities.org</link>
+            <description>hi! not dead! i know! im back with basically a complete overhaul of the entire website so heres to not abandoning it again &#60;3 theres still some incomplete content here and there but i wanted to make it public so im more motivated to clean stuff up</description>
+            <pubDate>Wed, 11 Sep 2024 10:52:24 +0800</pubDate>
+        </item>
+    </channel>
+</rss>

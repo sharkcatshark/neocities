@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sharkcat -> update log</title>
+    <link rel="icon" type="image/x-icon" href="assets/decorative/favicon.gif">
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .image1 { grid-area: image1; }
+        .image2 { grid-area: image2; }
+        .image3 { grid-area: image3; }
+        .text1 { grid-area: text1; }
+        .text2 { grid-area: text2; }
+        .text3 { grid-area: text3; }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'image1 text1'
+                'image2 text2'
+                'image3 text3';
+            gap: 15px;
+            grid-template-columns: 50% auto;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .grid-container {
+                display: initial;
+            }
+        }
+
+        h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="left">
+        <div id="logo">
+            <img src="assets/decorative/icon.png">
+        </div>
+        <hr>
+        <div class="section">
+            <div class="bar">
+                <h2>main</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="index.html" title="landing page">index</a></li>
+                    <li><a href="about.html" title="information about the website and webmaster">about</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="section">
+            <div class="bar">
+                <h2>contents</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="fics.html" title="fics i've written">fics</a></li>
+                    <li><a href="thoughts.html" title="non-fiction stuff i've written">thoughts</a></li>
+                    <li><a href="projects.html" title="longer term project write ups">projects</a></li>
+                    <li><a href="shrines.html" title="shrines to my various interests">shrines</a></li>
+                    <li><a href="arts-crafts.html" title="arts and crafts">arts & crafts</a></li>
+                    <li><a href="collections.html" title="physical stuff ive collected">collections</a></li>
+                    <li><a href="lists.html" title="lists about stuff">lists</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="section">
+            <div class="bar">
+                <h2>meta</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="sitemap.html" title="list of all pages on this site">sitemap</a></li>
+                    <li><a href="update-log.html" title="list of all updates">update log</a></li>
+                    <li><a href="rss.xml" title="rss feed for content updates">rss</a></li>
+                    <li><a href="credits.html" title="credits for assets + other stuff">credits</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div id="right">
+        <div class="section">
+            <div class="bar">
+                <h2>location</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <a href="index.html">sharkcat</a> / update log
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="bar">
+                <h2>Updates</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+
+            <div class="content" style="height: 300px; overflow-y: scroll;">
+                <div class="section">
+                    <div class="bar">
+                        <h2>2024-09-11</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>resurrected this site. im not dead! surprise!</li>
+                            <li>changed layout <em>again</em> (v.4)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-??-??</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>removed unused images</li>
+                            <li>fixed image in beliefs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-10-09</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>added alt text to header, pagedoll, shrine selection</li>
+                            <li>put update log and creations into ul lists</li>
+                            <li>replaced ao3 shrine cover and removed on hover colour change</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-10-08</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>published v.3 of site</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-07-17</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        added:
+                        <ul>
+                            <li><a href="shrines/nimona.html">nimona</a> shrine</li>
+                            <li>and some other stuff??? idk its been a while but vsc says ive made changes</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-05-15</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>added <a href="fics/and-i-was-haunted.html">new</a> fanfiction</li>
+                            <li>changed page layout for fics and writings</li>
+                            <li>fixed broken links</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-05-14</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>added back button to pages</li>
+                            <li>removed sticker sheet club</li>
+                            <li>added images to <a href="collections/furby.html">furby</a> collection</li>
+                            <li>fixed some graphics</li>
+                            <li>added new <a href="graphics.html">quiz</a> result</li>
+                            <li>updated <a href="sitemap.html">sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-05-03</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>added <a href="projects/bookmarklets.html">youtube to piped bookmarklet</a> i made</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-04-22</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        mini-site overhaul:
+                        <ul>
+                            <li>changed navbar + footer</li>
+                            <li>changed where pages are located</li>
+                            <li>changed <a href="about.html">about me</a></li>
+                            <li>removed inter/mini-directory pages</li>
+                            <li>creations page is now the hub of all my writings/projects</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-04-17</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>experimented with the css for fanfics and cringe corner</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-04-12</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>started fanfiction shrine</li>
+                            <li>added custom 404 page</li>
+                            <li>added ao3 essay</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-04-11</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>reworked file system slightly (no visible change on your end)</li>
+                            <li>minor changes here and there</li>
+                            <li>added furby collection</li>
+                            <li>more graphics</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-04-10</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>changed font, navbar, and footer</li>
+                            <li>updated about me and various side columns</li>
+                            <li>added projects page, various blank shrine pages, collections page with subpages</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-04-06</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>added guestbook</li>
+                            <li>changed banner</li>
+                            <li>started witch hat atelier shrine</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-04-02</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>added blog entry and jumping to specific month</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-04-01</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>small fixes + worked on voltron and klance shrine</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-03-31</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>added some shrines</li>
+                            <li>more graphics</li>
+                            <li>fixed general page css</li>
+                            <li>added cringe corner</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-03-27</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>published v.2.0 to neocities</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-03-24</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>started work on v.2.0</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>2023-01-29</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>site first created</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="bar">
+                <h2>Old Version Gallery</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content"> <!-- make side by side with image on left, text on right -->
+                <div class="grid-container">
+                    <div class="image1"><img src="assets/old-versions/v1.png" style="width:100%;"></a></div>
+                    <div class="text1">
+                        <h3>version 1.0</h3><!-- | <a class="download" href="../downloads/site-v1.zip" download="site-v1.zip">zip <i class="nf nf-md-download"></i></a><br>-->
+                        <span>Jan 2023 - Feb 2023</span>
+                        <p>This was my first attempt at making a website in general so forgive how barebones it is. No, I did not know how to make sidebar the same height as the main content. No, I also don't know how I got that extra space under/within the sidebar either.</p>
+                        <p>There was an attempt at making the CSS look nice and I generally get what I was going for but c'mon, I could've done any layout and I went with whatever this is. If you go through the update log you can see this layout only survived like 2 months before I changed it which is self-explanatory.</p>
+                        <p>I hadn't set up the GitHub repo for this site before I stopped using this layout and I can't for the life of me find a functioning backup of it on my computer if it even exists. I say functioning because I do have a version that has an updated version of content from the screenshot but the css is messed up so I have to manually re-edit it together. I have no idea what means I used to get that copy but I don't recommend it.</p>
+                        <p>I do like how I made my own font of my handwriting for this, that was fun. And the use of a gradient for the main background box to blend the header image in.</p>
+                    </div>
+                    <div class="image2"><img src="assets/old-versions/v2.png" style="width:100%;"></div>
+                    <div class="text2">
+                        <h3>version 2.0</h3>
+                        <span>Feb 2023 - Oct 2023</span>
+                        <p>AN ACCEPTABLE LAYOUT!! LETS GOOO!!! I figured out sidebars, added some marquees for scrolling buttons, learned what I enjoy about site layouts.</p>
+                        <p>This is probably my favourite of my past layouts. I used the sidebar to have general info about each page and I really like that concept.</p>
+                    </div>
+                    <div class="image3"><img src="assets/old-versions/v3.png" style="width:100%;"></div>
+                    <div class="text3">
+                        <h3>version 3.0</h3>
+                        <span>Oct 2023 - Sep 2024</span>
+                        <!--<p>Download .zip <i class="nf nf-md-download"></i></p>-->
+                        <p>I enjoyed how it was straight to the point but its also extremely fucking boring.</p>
+                        <p>The general point of this was that it should be simple to the point where I don't get overwhelmed in adding new content and figuring out how to make the layout consistent but this had the opposite effect in that it was boring :D</p>
+                        <p>I don't know why I was so committed to the less than full width centered layout but this was the third version of that.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pagedoll"><img src="assets/decorative/pagedoll.gif"></div>
+</body>
+</html>

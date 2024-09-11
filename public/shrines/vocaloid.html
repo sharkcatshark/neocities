@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sharkcat -> shrines -> vocaloid</title>
+    <link rel="icon" type="image/x-icon" href="../assets/decorative/favicon.gif">
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script> 
+    <style>
+        @import "https://www.nerdfonts.com/assets/css/webfont.css";
+    </style>
+</head>
+<body>
+    <!-- https://dokode.moe/blogs/howto-winamp -->
+    <div style="width:40px; height:40px; position:absolute; top:0; right:0;">
+        <div id="winamp-container"></div>
+        <script>
+            const Winamp = window.Webamp;
+            const webamp = new Webamp({
+                __initialWindowLayout: {
+                    main: { position: { x: 0, y: 0 } },
+                    equalizer: { position: { x: 0, y: 116 } },
+                    playlist: { position: { x: 275, y: 0 }, size: [0, 4] }
+                },
+                initialTracks: [
+                    {
+                        metaData: {
+                            artist: "R.I.P",
+                            title: "I'll Throw My Emotions Away",
+                        },
+                        url: "https://files.catbox.moe/ihkcuv.mp3",
+                    }, 
+                    {
+                        metaData: {
+                            artist: "GHOST",
+                            title: "Honey, I'm Home",
+                        },
+                        url: "https://files.catbox.moe/gumr5e.mp3",
+                    },
+                    {
+                        metaData: {
+                            artist: "KIRA",
+                            title: "MONSTER",
+                        },
+                        url: "https://files.catbox.moe/64a0p3.mp3",
+                    },
+                    {
+                        metaData: {
+                            artist: "Ryo",
+                            title: "World Is Mine",
+                        },
+                        url: "https://files.catbox.moe/t808ur.mp3",
+                    },
+                    {
+                        metaData: {
+                            artist: "Yuuyu-P",
+                            title: "Deep Sea Girl",
+                        },
+                        url: "https://files.catbox.moe/3osr5l.mp3",
+                    },
+                    {
+                        metaData: {
+                            artist: "daniwell",
+                            title: "Nyanyanyanyanyanyanya!",
+                        },
+                        url: "https://files.catbox.moe/nxfs83.mp3",
+                    },
+                    {
+                        metaData: {
+                            artist: "Kikuo",
+                            title: "Tengoku He Ikou",
+                        },
+                        url: "https://files.catbox.moe/whnvwr.mp3",
+                    },
+                ],
+                initialSkin: {
+                    url: /*"https://files.catbox.moe/jzmiy4.wsz"*/ "https://files.catbox.moe/lkttbl.wsz"
+                },
+            });
+            webamp.renderWhenReady(document.getElementById('winamp-container'));
+        </script>
+    </div>
+
+    <div id="left">
+        <div id="logo">
+            <img src="../assets/decorative/icon.png">
+        </div>
+        <hr>
+        <div class="section">
+            <div class="bar">
+                <h2>main</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="../index.html" title="landing page">index</a></li>
+                    <li><a href="../about.html" title="information about the website and webmaster">about</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="section">
+            <div class="bar">
+                <h2>contents</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="../fics.html" title="fics i've written">fics</a></li>
+                    <li><a href="../thoughts.html" title="non-fiction stuff i've written">thoughts</a></li>
+                    <li><a href="../projects.html" title="longer term project write ups">projects</a></li>
+                    <li><a href="../shrines.html" title="shrines to my various interests">shrines</a></li>
+                    <li><a href="../graphics.html" title="graphics i've collected">graphics</a></li>
+                    <li><a href="../arts-crafts.html" title="arts and crafts">arts & crafts</a></li>
+                    <li><a href="../collections.html" title="physical stuff ive collected">collections</a></li>
+                    <li><a href="../lists.html" title="lists about stuff">lists</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="section">
+            <div class="bar">
+                <h2>meta</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="../sitemap.html" title="list of all pages on this site">sitemap</a></li>
+                    <li><a href="../update-log.html" title="list of all updates">update log</a></li>
+                    <li><a href="../rss.xml" title="rss feed for content updates">rss</a></li>
+                    <li><a href="../credits.html" title="credits for assets + other stuff">credits</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div id="right">
+        <div class="section">
+            <div class="bar">
+                <h2>location</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <a href="../index.html">sharkcat</a> / <a href="../shrines.html">shrines</a> / vocaloid
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="bar">
+                <h2>vocaloid fucks</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <p>my css breaks the webamp display. i will fix that :thumbs_up:</p>
+                <p>i &lt;3 gumi </p>
+
+                <h2>english song producers cause they fuck</h2>
+                <ul>
+                    <li>Kira</li>
+                    <li>GHOST</li>
+                    <li>R.I.P</li>
+                    <li>Steampianist</li>
+                </ul>    
+
+                <p>seeing miku in concert in november!!</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="pagedoll"><img src="../assets/decorative/pagedoll.gif"></div>
+</body>
+</html>

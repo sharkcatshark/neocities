@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sharkcat -> projects -> userscripts</title>
+    <link rel="icon" type="image/x-icon" href="../assets/decorative/favicon.gif">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <div id="left">
+        <div id="logo">
+            <img src="../assets/decorative/icon.png">
+        </div>
+        <hr>
+        <div class="section">
+            <div class="bar">
+                <h2>main</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="../index.html" title="landing page">index</a></li>
+                    <li><a href="../about.html" title="information about the website and webmaster">about</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="section">
+            <div class="bar">
+                <h2>contents</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="../fics.html" title="fics i've written">fics</a></li>
+                    <li><a href="../thoughts.html" title="non-fiction stuff i've written">thoughts</a></li>
+                    <li><a href="../projects.html" title="longer term project write ups">projects</a></li>
+                    <li><a href="../shrines.html" title="shrines to my various interests">shrines</a></li>
+                    <li><a href="../arts-crafts.html" title="arts and crafts">arts & crafts</a></li>
+                    <li><a href="../collections.html" title="physical stuff ive collected">collections</a></li>
+                    <li><a href="../lists.html" title="lists about stuff">lists</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="section">
+            <div class="bar">
+                <h2>meta</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="../sitemap.html" title="list of all pages on this site">sitemap</a></li>
+                    <li><a href="../update-log.html" title="list of all updates">update log</a></li>
+                    <li><a href="../rss.xml" title="rss feed for content updates">rss</a></li>
+                    <li><a href="../credits.html" title="credits for assets + other stuff">credits</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div id="right">
+        <div class="section">
+            <div class="bar">
+                <h2>location</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <a href="../index.html">sharkcat</a> / <a href="../projects.html">projects</a> / userscripts
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="bar">
+                <h2>note</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                If you're new to userscripts I recommend the <a href="https://violentmonkey.github.io/">Violentmonkey</a> extension.<!-- Userscripts are really cool bits of tech and I would not survive without them anymore. -->
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="bar">
+                <h2>ao3</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+            
+                <div class="section">
+                    <div class="bar">
+                        <h2>stat graphs+</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <p><a href="https://github.com/sharkcatshark/Userscripts/raw/main/AO3/stat-graphs.user.js">GitHub</a> | <a href="https://greasyfork.org/en/scripts/499201-ao3-stat-graphs">GreasyFork</a></p>
+                        <hr>
+                        <p>A complete overhaul of the statistics page.</p>
+                        <hr>
+                        <p>I think I started this cause I was on a fuck google high and the default graphs are made with Google Charts. Also out of a want of more customisability and more variety of stats.</p>
+                        <p>During the development of this, I started with a version where I very clearly did not know enough about coding and gave up because I could not figure anything out. I eventually figured it out and created this version.</p>
+                        <p>There was a couple chart libraries I could pick from, I ended up going with a slightly older version (3.9.1) of <a href="https://www.chartjs.org/">Chart.js</a> but I did dabble around with <a href="https://plotly.com/javascript/">Plotly</a> for a while.</p>
+                        <p>Looks best on desktop, mobile version is a bit fucked looking but its still useable. I do want to improve it for mobile though.</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>archived bookmarks</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <p><a href="https://github.com/sharkcatshark/Userscripts/raw/main/AO3/archived-bookmarks.user.js">GitHub</a> | <a href="https://greasyfork.org/en/scripts/499196-ao3-archived-bookmarks">GreasyFork</a></p>
+                        <hr>
+                        <p>Bookmarks tagged with 'Archived' will be hidden from view alongside a counter of how many fics have been hidden per page. Searches for the tag will show them.</p>
+                        <hr>
+                        <p>This came about because I have bookmarked quite a lot of fics for fandoms that I'm no longer in and would prefer not to look at for a variety of reasons but I am fundamentally opposed to deleting the bookmarks because what if one day I want to look back on what I was reading at the time and can never find specifc fics ever again!!!
+                            I did have a makeshift solution of using an ao3 skin to accomplish the base goal of "don't show me this fic anymore" (i'll try and dig up the code for it) but when i did want to look at the fics it was a lot more tedious to do so. (either turn off entire site skin for the duration of the time you want to view archived fics or remove the hide aspect from the skin and then re-add later).
+                            I eventually figured that using a userscript would be easier as thats just one toggle button to switch between and then eventually figured out a way to have it so I wouldn't even have to toggle it off.
+                        </p>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>display full work conditionally</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <p><a href="https://github.com/sharkcatshark/Userscripts/raw/main/AO3/display-full-work-conditionally.user.js">GitHub</a> | <a href="https://greasyfork.org/en/scripts/499197-ao3-display-full-work-conditionally">GreasyFork</a></p>
+                        <hr>
+                        Makes chaptered works under a certain wordcount display in full instead of chaptered. default is 8k
+                        <hr>
+                        Example scenario: Fic is like 6k words. A good length fic. Look at chapter count: 10 chapters :( I don't want to press next chapter that many times. solution: automate displaying full work
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>fav tag counter</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <p><a href="https://github.com/sharkcatshark/Userscripts/raw/main/AO3/fav-tag-counter.user.js">GitHub</a> | <a href="https://greasyfork.org/en/scripts/499198-ao3-fav-tag-counter">GreasyFork</a></p>
+                        <hr>
+                        Show a counter of how many tags you have favourited on the homepage
+                        <hr>
+                        <p>just an easier way to see how close i am to the limit instead of randomly hitting it one day and deciding which tag to sacrifice</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>remove from list</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <p><a href="https://github.com/sharkcatshark/Userscripts/raw/main/AO3/remove-from-list.user.js">GitHub</a> | <a href="https://greasyfork.org/en/scripts/499200-ao3-remove-from-list">GreasyFork</a></p>
+                        <hr>
+                        On 'Marked For Later' pages, add a button to remove from list without deleting. 
+                        <hr>
+                        I don't know why this isn't already default behaviour but theres Only Delete From History. I don't want to delete from history i just dont want to have to click on a fic to remove it from my marked for later list.
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>marked for later in sidebar</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <p><a href="https://github.com/sharkcatshark/Userscripts/raw/main/AO3/marked-for-later-in-sidebar.user.js">GitHub</a> | <a href="https://greasyfork.org/en/scripts/499199-ao3-marked-for-later-in-the-sidebar">GreasyFork</a></p>
+                        <hr>
+                        Adds a direct link to marked for later in the sidebar of profiles under history
+                        <hr>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="bar">
+                        <h2>incomplete. continue?</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <p><a href="https://github.com/sharkcatshark/Userscripts/raw/main/AO3/incomplete-continue.user.js">GitHub</a> | <a href="https://greasyfork.org/en/scripts/504209-ao3-incomplete-continue">GreasyFork</a></p>
+                        <hr>
+                        Checks how long ago incomplete works were last updated and displays a warning if longer than user set time period. 
+                        <hr>
+                        we've all been there. also just nice to not have to do maths
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="bar">
+                <h2>gossamer</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <div class="section">
+                    <div class="bar">
+                        <h2>estimate word count</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <p><a href="https://github.com/sharkcatshark/Userscripts/raw/main/Gossamer/estimate-wordcount.user.js">GitHub</a></p>
+                        <hr>
+                        <p>Adds a vague estimate of a word count to gossamer fics</p>
+                        <hr>
+                        <p>AO3 is apparently an outlier for having a word count. I got into The X-Files, found out about Gossamer (lovely website), and had to quickly adjust to the fact that fans in the 90s were referring to file sizes not word counts so that answered my question of how tf people in the 90s wrote so much.</p>
+                        <p>I say 'vague estimate' as it can't differentiate between author notes and the actual fic in addition to it only averages out character count per word but its better than nothing for me.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="bar">
+                        <h2>full year</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <p><a href="https://github.com/sharkcatshark/Userscripts/raw/main/Gossamer/full-year.user.js">GitHub</a></p>
+                        <hr>
+                        Changes archived date to show full year (iso 8601)
+                        <hr>
+                        Sorry, I was supposed to look at 'Archived 02-04-08' and understand what the fuck I was looking at? Its YY-MM-DD but you would not be able to guess that just by looking at it.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="bar">
+                <h2>misc</h2>
+                <div><i class="nf nf-oct-x"></i></div>
+            </div>
+            <div class="content">
+                <div class="section">
+                    <div class="bar">
+                        <h2>xkcd - explain button</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <p><a href="https://github.com/sharkcatshark/Userscripts/raw/main/XKCD/explain-xkcd-button.user.js">GitHub</a></p>
+                        <hr>
+                        i'm not the first to make this and i won't be the last but i wanted to make my own verion anyway
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="bar">
+                        <h2>bandcamp - artist to discography</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <p><a href="https://github.com/sharkcatshark/Userscripts/raw/main/Bandcamp/artist-to-album.user.js">GitHub</a> | <a href="https://greasyfork.org/en/scripts/500414-bandcamp-artist-to-discography">GreasyFork</a></p>
+                        <hr>
+                        i have no idea why but sometimes when you click the artist name under the album it takes you to the latest release and sometimes it takes you to the discography. i wanted to only go to discography so i made this
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="pagedoll"><img src="../assets/decorative/pagedoll.gif"></div>
+</body>
+</html>

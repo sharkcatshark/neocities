@@ -1,0 +1,223 @@
+@import "webfont.css";
+
+/* base formatting */
+
+html {
+    background: url("../assets/decorative/background.png") #060b10;
+    height: 100%;
+    font-family: monospace;
+    color: #0f0e22;
+    cursor: url("../assets/decorative/point-epf.png"), default;
+}
+
+::selection {
+    color: #a1c4e3;
+    background: #0f0e22;
+}
+
+a, a:visited {
+    color: #004566;
+}
+
+a.download {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: url("../assets/decorative/click-epf.png"), pointer;
+    color: #0f0e22;
+}
+
+ul {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+ul li::before {
+    font-family: 'NerdFontsSymbols Nerd Font';
+    content: "\f245";
+    font-size: 12px;
+    margin-right: .3rem;
+}
+
+ul ul li:before {
+    content: "\f061";
+    margin-left: .8rem;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+h2, .bar div {
+    color: #ebf4ff;
+}
+
+
+b {
+    color: #1c4b86;
+}
+
+sup a {
+    text-decoration: none;
+}
+
+/* left column */
+
+#logo img {
+    height: 148px;
+    border: 1px solid white;
+}
+
+#left {
+    float: left;
+    width: 150px;
+    margin: 0px 5px;
+    position: fixed;
+    /* position: sticky; /* trying out so it scrolls when too long
+    top: 5px; */
+}
+
+#left .section {
+    margin: 0;
+}
+
+#left .content {
+    padding: 5px 3px 5px;
+}
+
+#left hr {
+    background: url(../assets/decorative/rainbow-stars.png) no-repeat;
+    background-position-x: 0%;
+    background-position-x: center;
+    border: 0;
+    height: 15px;
+}
+
+/* right column */
+
+#right {
+    float: none;
+    overflow: hidden;
+    margin: 0px 5px;
+    margin-left: 165px;
+}
+
+#right .content {
+    padding: 5px 10px;
+}
+
+/* faux window formatting */
+
+.section {
+    background: #a1c4e3;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid white;
+}
+
+.section h2 {
+    margin: 0px;
+}
+
+.bar {
+    background: #3c638c;
+    padding: 1px 0;
+}
+
+.bar h2 {
+    float: left;
+    padding-left: 5px;
+}
+
+.bar div {
+    text-align: end;
+    padding-right: 2px;
+}
+
+/* window modifications */
+
+.square {
+    width: min-content;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.ficContent hr {
+    border: none;
+    text-align: center;
+    color: #0f0e22;
+}
+
+.ficContent hr:after {
+    content: "◇◆◇◆◇◆◇◆◇◆◇";
+}
+
+.ficAbout li::before {
+    content: "\f444";
+}
+
+.ficAbout ul {
+    margin-left: 10px;
+}
+
+/* pagedoll */
+
+#pagedoll img {
+    position: fixed;
+    right: 0.8rem;
+    bottom: 0.8rem;
+}
+
+/* page resizing / responsiveness */
+
+@media only screen and (max-width: 800px) { /* if 800 and under */
+    #left {
+        float: initial;
+        display: flex;
+        width: initial;
+        margin: initial;
+        margin-bottom: 10px;
+        margin-left: 5px; /* 10 to 5*/
+        position: initial; /* new */
+    }
+    #left .section {
+        margin-right: 5px; /* 10 to 5*/
+        width: 50%;
+    }
+
+    #left .section:nth-last-child(1) {
+        margin-right: initial;
+    }
+
+    #right {
+        margin-left: 5px; /* new */
+    }
+
+    #logo {
+        margin: auto;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 565px) { /* if 565 or under */
+    #logo {
+        display: none;
+    }
+}
+
+/*
+.content p:first-child, .content p:last-child, .content .section:last-child {
+   margin: 0 auto;
+}
+*/
+
+
+/*
+a:has(i.nf) {
+    text-decoration: none;
+}
+*/
