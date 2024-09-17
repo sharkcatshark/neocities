@@ -1,0 +1,50 @@
+@import "webfont.css";
+
+html {
+    background: url("../assets/decorative/background.png") #060b10;
+    height: 100%;
+    font-family: monospace;
+    color: #0f0e22;
+    cursor: url("../assets/decorative/point-epf.png"), default;
+}
+
+.section {
+    background: #a1c4e3;
+    border: 1px solid white;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.section h2 {
+    margin: 0px;
+}
+
+.bar {
+    background: #3c638c;
+    padding: 1px 0;
+}
+
+.bar h2 {
+    float: left;
+    padding-left: 5px;
+}
+
+h2, .bar div {
+    color: #ebf4ff;
+}
+
+.bar div {
+    text-align: end;
+    padding-right: 2px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.content {
+    padding: 5px 10px;
+}

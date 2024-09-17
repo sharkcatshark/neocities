@@ -77,8 +77,6 @@ sup a {
     width: 150px;
     margin: 0px 5px;
     position: fixed;
-    /* position: sticky; /* trying out so it scrolls when too long
-    top: 5px; */
 }
 
 #left .section {
@@ -181,11 +179,11 @@ sup a {
         width: initial;
         margin: initial;
         margin-bottom: 10px;
-        margin-left: 5px; /* 10 to 5*/
-        position: initial; /* new */
+        margin-left: 5px;
+        position: initial;
     }
     #left .section {
-        margin-right: 5px; /* 10 to 5*/
+        margin-right: 5px;
         width: 50%;
     }
 
@@ -194,7 +192,7 @@ sup a {
     }
 
     #right {
-        margin-left: 5px; /* new */
+        margin-left: 5px;
     }
 
     #logo {
@@ -207,17 +205,17 @@ sup a {
     #logo {
         display: none;
     }
+
+    body {
+        margin: 8px 2px 0px 2px;
+    }
+
+    #left .content {
+        font-size: 10pt;
+        line-height: 13pt;
+    }
 }
 
-/*
-.content p:first-child, .content p:last-child, .content .section:last-child {
-   margin: 0 auto;
+.center {
+    text-align: center;
 }
-*/
-
-
-/*
-a:has(i.nf) {
-    text-decoration: none;
-}
-*/

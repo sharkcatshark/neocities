@@ -6,6 +6,27 @@
     <title>sharkcat -> collections -> furby</title>
     <link rel="icon" type="image/x-icon" href="../assets/decorative/favicon.gif">
     <link rel="stylesheet" href="../styles/main.css">
+    <style>
+
+        .square img {
+            height: 100px;
+        }
+
+        @media screen and (max-width: 800px) {
+            .square img {
+                height: 21vw;
+            }
+
+            .furbs {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .furbs .section {
+                margin-right: 0;
+            }
+        }
+    </style>
 </head>
 <body>
     <div id="left">
@@ -83,14 +104,14 @@
                 <p>You can figure out your furby's birthday using <a href="https://www.tumblr.com/asexual-furby/661223065573785600/guess-whos-back-with-another-guide-this-time">this</a> guide</p>
             </div>
         </div>
-
+        <div class="furbs">
         <div class="section square">
             <div class="bar">
                 <h2>2012 Yeti</h2>
                 <div><i class="nf nf-oct-x"></i></div>
             </div>
             <div class="content">
-                <img src="../assets/furby/2012-yeti.png" height="100px">
+                <img src="../assets/furby/2012-yeti.png">
             </div>
         </div>
 
@@ -100,7 +121,7 @@
                 <div><i class="nf nf-oct-x"></i></div>
             </div>
             <div class="content">
-                <img src="../assets/furby/2013-twittby.png" height="100px">
+                <img src="../assets/furby/2013-twittby.png">
             </div>
         </div>
 
@@ -110,10 +131,10 @@
                 <div><i class="nf nf-oct-x"></i></div>
             </div>
             <div class="content">
-                <img src="../assets/furby/1999-giraffe.png" height="100px">
+                <img src="../assets/furby/1999-giraffe.png">
             </div>
         </div>
-
+    </div>
         <div class="section" style="clear: left;">
             <div class="bar">
                 <h2>Wishlist</h2>

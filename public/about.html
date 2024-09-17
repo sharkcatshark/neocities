@@ -6,6 +6,34 @@
     <title>sharkcat -> about</title>
     <link rel="icon" type="image/x-icon" href="assets/decorative/favicon.gif">
     <link rel="stylesheet" href="styles/main.css">
+    <style>
+        #buttonsUnderNav {
+            justify-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #buttonsUnderNav img {
+            width: 49%;
+            margin-bottom: 4px;
+        }
+
+        #smallLayoutButtons {
+            display: none;
+        }
+
+        @media screen and (max-width: 800px) {
+            #buttonsUnderNav {
+                display: none;
+            }
+
+            #smallLayoutButtons {
+                display: flex;
+                justify-content: space-evenly;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div id="left">
@@ -59,13 +87,22 @@
             </div>
         </div>
         <hr>
-        <div style="text-align: center;">
-            <img src="assets/buttons/completelyHandCoded.gif" style="margin-right: 3px; width: 49%"><img src="assets/buttons/certifiedCookieFree.gif" style="width: 49%">
-            <img src="assets/buttons/cssIsAwesome.png" style="margin-right: 3px; width: 49%"><img src="assets/buttons/webDesign.png" style="width: 49%">
+        <div id="buttonsUnderNav">
+            <img src="assets/buttons/completelyHandCoded.gif">
+            <img src="assets/buttons/certifiedCookieFree.gif">
+            <img src="assets/buttons/cssIsAwesome.png">
+            <img src="assets/buttons/webDesign.png">
         </div>
     </div>
 
     <div id="right">
+        <div id="smallLayoutButtons">
+            <img src="assets/buttons/completelyHandCoded.gif">
+            <img src="assets/buttons/certifiedCookieFree.gif">
+            <img src="assets/buttons/cssIsAwesome.png">
+            <img src="assets/buttons/webDesign.png">
+        </div>
+
         <div class="section">
             <div class="bar">
                 <h2>location</h2>
