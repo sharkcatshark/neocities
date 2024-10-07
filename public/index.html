@@ -7,18 +7,28 @@
     <link rel="icon" type="image/x-icon" href="assets/decorative/favicon.gif">
     <link rel="stylesheet" href="styles/main.css">
     <style>
-        .grid {
-            display: grid;
-            grid-template-columns: 50% auto;
-            gap: 10px;
+        .leftFloat {
+            margin-right: 10px;
+            width: 60%;
         }
 
-        .grid .section {
-            height: min-content;
+        .rightFloat {
+            width: calc(40% - 10px);
         }
 
-        .content img {
-            vertical-align: middle;
+        .mainFloat {
+            float: left;
+        }
+
+        @media only screen and (max-width: 800px) { /* if 800 or under */
+            .mainFloat {
+                float: initial;
+                width: initial;
+            }
+
+            .leftFloat {
+                margin-right: 0;
+            }
         }
     </style>
 </head>
@@ -74,6 +84,7 @@
             </div>
         </div>
         <hr>
+        <a href="https://sharkcat.atabook.org" style="margin-left: 10px;" target="_blank"><img src="assets/guestbook.gif" title="Sign my Guestbook!"></a>
     </div>
 
     <div id="right">
@@ -87,163 +98,171 @@
             </div>
         </div>
         <main>
-        <div class="section">
-            <div class="bar">
-                <h2>welcome</h2>
-                <div><i class="nf nf-oct-x"></i></div>
-            </div>
-            <div class="content">
-                <p>Welcome to my website! This site exists for me to scream about my interests or whatever I want really.</p>
-                <p>This is a continuous work in progress as I add and/or remove content/pages or even redesign the whole thing so some things may change around on a semi-regular basis depending on how busy I am.</p>
-                <p>If some pages looked unfinished, its because they are and I am getting around to finishing them eventually.</p>
-                <p>As always, site is best viewed on desktop, but it should be useable on mobile. Enjoy :D</p>
-                <p><img src="assets/buttons/sharkcat-button.png" alt="site button"> <- site button</p>
-            </div>
-        </div>
-
-        <div class="section">
-            <div class="bar">
-                <h2>buttons<!--that represent me / this site / i just wanna bring attention to--></h2>
-                <div><i class="nf nf-oct-x"></i></div>
-            </div>
-            <div class="content">
-                <img src="assets/buttons/neocitiesNow.png" alt="Neocities Now">
-                <img src="assets/buttons/sayNoToWeb3.gif" alt="Keep The Web Free Say No To Web3">
-                <img src="assets/buttons/ublockOriginNow.png" alt="uBlock Origin Now">
-                <img src="assets/buttons/googleChromeIsEvil.gif" alt="Google Chrome Is Evil">
-                <img src="assets/buttons/iso8601.png" alt="ISO 8601">
-                <img src="assets/buttons/bookmarkThisPage.gif" alt="Bookmark This Page">
-                <img src="assets/buttons/piracyNow.gif" alt="Piracy Now">
-                <img src="assets/buttons/noFuckingThanks.gif" alt="NFT No Fucking Thanks">
-                <!-- i NEED an ai fuck off button -->
-            </div>
-        </div>
-
-        <div class="section">
-            <div class="bar">
-                <h2>communities</h2>
-                <div><i class="nf nf-oct-x"></i></div>
-            </div>
-            <div class="content" style="display: flex; align-items: center;">
-                <div><script src="https://nuthead.neocities.org/ring/ring.js"></script></div>
-                <a href="https://10-31.net/megan/jurassic/" style="margin-right: 10px"><img src="assets/fanlisting/jp.jpg" alt="Jurassic Park Fanlisting"></a>
-                <a href="https://www.ladyrose.buruma.net/3ds/" style="margin-right: 10px"><img src="assets/fanlisting/3ds.jpg" alt="3DS Fanlisting"></a>
-                <a href="https://decembergirl.net/xfiles/"><img src="assets/fanlisting/txf.png" alt="The X-Files Fanlisting"></a>
-            </div>
-        </div>
-
-        <div class="section">
-            <div class="bar">
-                <h2>cool sites!</h2>
-                <div><i class="nf nf-oct-x"></i></div>
-            </div>
-            <div class="content">
-                <a href="https://maia.crimew.gay/"><img src="assets/sites/maia-crimew-gay.png" alt="maia.crimew.gay site button"></a>
-                <a href='https://blinkies.cafe'><img src='assets/sites/blinkiesCafe.gif' alt='blinkies.cafe | make your own blinkies!'></a>
-            </div>
-        </div>
-
-        <div class="grid">
-            <div class="section">
-                <div class="bar">
-                    <h2>to do</h2>
-                    <div><i class="nf nf-oct-x"></i></div>
-                </div>
-                <div class="content">
-                    <b>Content</b>
-                    <ul>
-                        <li>Add content to <a href="arts-crafts.html">art pages</a></li>
-                        <li>Write fic directors commentaries</li>
-                    </ul>
-                    <br>
-                    <b>Clean Up</b>
-                    <ul>
-                        <li><a href="thoughts//ao3-essay.html">AO3 Essay</a>: edit, re-reference properly</li>
-                    </ul>
-                    <br>
-                    <b>Formatting</b>
-                    <ul>
-                        <li>Fix h1, h2 header stuff</li>
-                        <li><a href="shrines.html">Shrines</a>: Themeing</li>
-                    </ul>
-                    <br>
-                    <b>To Add (<a href="lists/page-ideas.html">Full List</a>)</b>
-                    <ul>
-                        <li>Potentially re-add blog</li>
-                        <li>Guestbook (RIP 123guestbooks)</li>
-                        <li>landing page?</li>
-                    </ul>
-                    <br>
-
-                    <!--
-                    <b>Fanlistings & Webrings To Possibly Join</b>
-                    <ul>
-                        <li><a href="https://furryring.neocities.org/">furryring</a></li>
-                        <li><a href="https://snewberry.neocities.org/catfolkwebring">catfolk webring</a></li>
-                        <li><a href="https://webring.adilene.net/">vocaloid webring</a></li>
-                        <li><a href="https://transring.neocities.org/">transing the internet webring</a></li>
-                        <li><a href="https://confettiguts.gay/xenics/">xenics of the internet webring</a></li>
-                        <li><a href="https://baccyflap.com/noai/">no ai webring</a></li>
-                    </ul>-->
-                </div>
-            </div>
-
-            <div class="section">
-                <div class="bar">
-                    <h2>recent <a href="update-log.html" style="color: #ebf4ff;">updates</a></h2>
-                    <div><i class="nf nf-oct-x"></i></div>
-                </div>
-                <div class="content">
-                    <!-- last 3 updates. consider making iframe of updatelog which would be put onto a seperate page for this -->
-                    <div class="section">
-                        <div class="bar">
-                            <h2>2024-09-19</h2>
-                            <div><i class="nf nf-oct-x"></i></div>
-                        </div>
-                        <div class="content">
-                            <ul>
-                                <li>created <a href="lists/page-ideas.html">page ideas</a> list</li>
-                                <li>joined x-files fanlisting</li>
-                                <li>made site button</li>
-                                <li>added links to identity pages on <a href="thoughts.html">thoughts</a></li>
-                            </ul>
-                        </div>
+            <div class="mainFloat leftFloat">
+                <div class="section">
+                    <div class="bar">
+                        <h2>welcome</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
                     </div>
-                    
-                    <div class="section">
-                        <div class="bar">
-                            <h2>2024-09-18</h2>
-                            <div><i class="nf nf-oct-x"></i></div>
-                        </div>
-                        <div class="content">
-                            <ul>
-                                <li>added missing link to graphics page from <a href="collections.html">collections</a></li>
-                                <li>miscellaneous formatting/cleaning up</li>
-                            </ul>
-                        </div>
+                    <div class="content">
+                        <p>Welcome to my website! This site exists for me to scream about my interests or whatever I want really.</p>
+                        <p>This is a continuous work in progress as I add and/or remove content/pages or even redesign the whole thing so some things may change around on a semi-regular basis depending on how busy I am.</p>
+                        <p>If some pages looked unfinished, its because they are and I am getting around to finishing them eventually.</p>
+                        <p>General content warning for language. If I ever add more adult content, it'll be labelled.</p>
+                        <p>As always, site is best viewed on desktop, but it should be useable on mobile. Enjoy :D</p>
+                        <p><img src="assets/buttons/sharkcat-button.png" alt="site button" style="vertical-align: middle;"> <- site button</p>
                     </div>
-                    
-                    <div class="section">
-                        <div class="bar">
-                            <h2>2024-09-11</h2>
-                            <div><i class="nf nf-oct-x"></i></div>
-                        </div>
-                        <div class="content">
-                            <ul>
-                                <li>resurrected this site. im not dead! surprise!</li>
-                                <li>changed layout <em>again</em> (v.4)</li>
-                            </ul>
-                        </div>
+                </div>
+
+                <div class="section">
+                    <div class="bar">
+                        <h2>buttons<!--that represent me / this site / i just wanna bring attention to--></h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <img src="assets/buttons/neocitiesNow.png" alt="Neocities Now">
+                        <img src="assets/buttons/sayNoToWeb3.gif" alt="Keep The Web Free Say No To Web3">
+                        <img src="assets/buttons/ublockOriginNow.png" alt="uBlock Origin Now">
+                        <img src="assets/buttons/googleChromeIsEvil.gif" alt="Google Chrome Is Evil">
+                        <img src="assets/buttons/iso8601.png" alt="ISO 8601">
+                        <img src="assets/buttons/bookmarkThisPage.gif" alt="Bookmark This Page">
+                        <img src="assets/buttons/piracyNow.gif" alt="Piracy Now">
+                        <img src="assets/buttons/noFuckingThanks.gif" alt="NFT No Fucking Thanks">
+                        <img src="assets/buttons/anti-ai.gif" alt="This is an Anti-AI Site">
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="bar">
+                        <h2>communities</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content" style="display: flex; align-items: center;">
+                        <div><script src="https://nuthead.neocities.org/ring/ring.js"></script></div>
+                        <a href="https://10-31.net/megan/jurassic/" style="margin-right: 10px"><img src="assets/fanlisting/jp.jpg" alt="Jurassic Park Fanlisting"></a>
+                        <a href="https://www.ladyrose.buruma.net/3ds/" style="margin-right: 10px"><img src="assets/fanlisting/3ds.jpg" alt="3DS Fanlisting"></a>
+                        <a href="https://decembergirl.net/xfiles/"><img src="assets/fanlisting/txf.png" alt="The X-Files Fanlisting"></a>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="bar">
+                        <h2>cool sites!</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <a href="https://maia.crimew.gay/"><img src="assets/sites/maia-crimew-gay.png" alt="maia.crimew.gay site button"></a>
+                        <a href='https://blinkies.cafe'><img src='assets/sites/blinkiesCafe.gif' alt='blinkies.cafe | make your own blinkies!'></a>
+                        <a href="https://mxbo.neocities.org"><img src="assets/sites/mxbo.gif" alt="mxbo.neocities.org site button"></a>
                     </div>
                 </div>
             </div>
-        </div>
+            
+            <div class="mainFloat rightFloat">
+                <div class="section">
+                    <div class="bar">
+                        <h2>to do</h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <b>Content</b>
+                        <ul>
+                            <li>Add content to <a href="arts-crafts.html">art pages</a></li>
+                            <li>Write fic directors commentaries</li>
+                        </ul>
+                        <br>
+                        <b>Clean Up</b>
+                        <ul>
+                            <li><a href="thoughts//ao3-essay.html">AO3 Essay</a>: edit, re-reference properly</li>
+                        </ul>
+                        <br>
+                        <b>Formatting</b>
+                        <ul>
+                            <li>Fix h1, h2 header stuff</li>
+                            <li><a href="shrines.html">Shrines</a>: Themeing</li>
+                        </ul>
+                        <br>
+                        <b>To Add (<a href="lists/page-ideas.html">Full List</a>)</b>
+                        <ul>
+                            <li>Potentially re-add blog</li>
+                            <li>landing page?</li>
+                        </ul>
+                        <br>
 
+                        <!--
+                        <b>Fanlistings & Webrings To Possibly Join</b>
+                        <ul>
+                            <li><a href="https://furryring.neocities.org/">furryring</a></li>
+                            <li><a href="https://snewberry.neocities.org/catfolkwebring">catfolk webring</a></li>
+                            <li><a href="https://webring.adilene.net/">vocaloid webring</a></li>
+                            <li><a href="https://transring.neocities.org/">transing the internet webring</a></li>
+                            <li><a href="https://confettiguts.gay/xenics/">xenics of the internet webring</a></li>
+                            <li><a href="https://baccyflap.com/noai/">no ai webring</a></li>
+                        </ul>-->
+                    </div>
+                </div>
+
+                <!-- updates -->
+                <div class="section">
+                    <div class="bar">
+                        <h2>recent <a href="update-log.html" style="color: #ebf4ff;">updates</a></h2>
+                        <div><i class="nf nf-oct-x"></i></div>
+                    </div>
+                    <div class="content">
+                        <!-- last 3 updates. consider making iframe of updatelog which would be put onto a seperate page for this -->
+                        
+                        <div class="section">
+                            <div class="bar">
+                                <h2>2024-10-07</h2>
+                                <div><i class="nf nf-oct-x"></i></div>
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li>quietly removing some pages :) (they might come back at a later date)</li>
+                                    <li>made homepage fully into two columns</li>
+                                    <li>added to <a href="lists/app-defaults.html">app defaults</a> (6 new)</li>
+                                    <li>added to <a href="lists/page-ideas.html">page ideas</a></li>
+                                    <li>added to cool sites on homepage (1 new)</li>
+                                    <li>added <a href="https://sharkcat.atabook.org" target="_blank">guestbook</a> link</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="bar">
+                                <h2>2024-09-19</h2>
+                                <div><i class="nf nf-oct-x"></i></div>
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li>created <a href="lists/page-ideas.html">page ideas</a> list</li>
+                                    <li>joined x-files fanlisting</li>
+                                    <li>made site button</li>
+                                    <li>added links to identity pages on <a href="thoughts.html">thoughts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="section">
+                            <div class="bar">
+                                <h2>2024-09-18</h2>
+                                <div><i class="nf nf-oct-x"></i></div>
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li>added missing link to graphics page from <a href="collections.html">collections</a></li>
+                                    <li>miscellaneous formatting/cleaning up</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </main>
     </div>
-    
-    <section>
-    <div id="pagedoll"><img src="assets/decorative/pagedoll.gif" alt=""></div>
-    </section>
+</div>
+
+<div id="pagedoll"><img src="assets/decorative/pagedoll.gif" alt="" title="hiii :3"></div>
+
 </body>
 </html>

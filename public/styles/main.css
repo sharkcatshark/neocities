@@ -1,4 +1,4 @@
-@import "webfont.css";
+@import "https://www.nerdfonts.com/assets/css/webfont.css"; 
 
 /* base formatting */
 
@@ -133,6 +133,14 @@ sup a {
 .bar div {
     text-align: end;
     padding-right: 2px;
+}
+
+.section.note {
+    background: #a1a6e3;
+}
+
+.section.note .bar {
+    background: #3c3c8c;
 }
 
 /* window modifications */
