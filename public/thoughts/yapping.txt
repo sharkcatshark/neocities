@@ -1,8 +1,0 @@
-Having several related thoughts currently:
-
-- Switching to nekoweb as a host
-- Changing online usernames
-
-I don't think I would fully switch over to nekoweb and abandon my neocites. At most I think I would set up a deploy to nekoweb github action and just have mirrored websites on either host (identical content).
-
-I've also recently enjoyed less having the same username on neocities, tumblr, github (those are the main ones) and want to change them. I don't want my site url to be the name i go by, I want it to be a sorta project name. Easiest option i think rn would be to keep my site url as sharkcat but then again i use sharkcat on the wha wiki, but at least one person has my old site button linked that says sharkcat. my site button has neocities on it as well so fuck me i guess.
