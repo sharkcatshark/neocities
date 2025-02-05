@@ -3,9 +3,30 @@
     <channel>
         <title>sharkcat updates</title>
         <link>https://sharkcat.neocities.org</link>
-        <description>what sharkcat classify as noteable content updates for its neocities</description>
+        <description>what sharkcat classifies as noteable content updates for its neocities</description>
         <language>en-au</language>
         <atom:link href="https://sharkcat.neocities.org/rss.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>sharkcat 2024-10-16</title>
+            <link>https://sharkcat.neocities.org</link>
+            <description>
+                <![CDATA[
+                <ul>
+                    <li>new fic! <a href="https://sharkcat.neocities.org/fics/the-continuous-act">the continuous act of creation</a> (TXF)</li>
+                    <li>joined more webrings</li>
+                    <ul>
+                        <li>No AI Webring</li>
+                        <li>Transing the Internet Webring</li>
+                        <li>Furryring</li>
+                        <li>Catfolk Webring</li>
+                        <li>Vocaloid Webring</li>
+                    </ul>
+                    <li>significant progress on <a href="https://sharkcat.neocities.org/shrines/earthsea">earthsea</a> shrine</li>
+                </ul>
+                ]]>
+            </description>
+            <pubDate>Mon, 16 Oct 2024 XX:XX:XX +0800</pubDate>
+        </item>
         <item>
             <title>sharkcat 2024-10-07</title>
             <link>https://sharkcat.neocities.org</link>

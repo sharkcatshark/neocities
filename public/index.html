@@ -6,7 +6,12 @@
     <title>sharkcat</title>
     <link rel="icon" type="image/x-icon" href="assets/decorative/favicon.gif">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
     <style>
+        .wbrng {
+            text-align: center;
+        }
+
         .leftFloat {
             margin-right: 10px;
             width: 60%;
@@ -30,6 +35,18 @@
                 margin-right: 0;
             }
         }
+
+        .bar b {
+            float: left;
+            padding-left: 5px;
+            color: #ebf4ff;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1em;
+            font-weight: normal;
+        }
     </style>
 </head>
 <body>
@@ -40,7 +57,7 @@
         <hr>
         <div class="section">
             <div class="bar">
-                <h2>main</h2>
+                <b>main</b>
                 <div><i class="nf nf-oct-x"></i></div>
             </div>
             <div class="content">
@@ -53,7 +70,7 @@
         <hr>
         <div class="section">
             <div class="bar">
-                <h2>contents</h2>
+                <b>contents</b>
                 <div><i class="nf nf-oct-x"></i></div>
             </div>
             <div class="content">
@@ -71,7 +88,7 @@
         <hr>
         <div class="section">
             <div class="bar">
-                <h2>meta</h2>
+                <b>meta</b>
                 <div><i class="nf nf-oct-x"></i></div>
             </div>
             <div class="content">
@@ -90,11 +107,11 @@
     <div id="right">
         <div class="section">
             <div class="bar">
-                <h2>location</h2>
+                <b>location</b>
                 <div><i class="nf nf-oct-x"></i></div>
             </div>
             <div class="content">
-                <a href="index.html">sharkcat</a>
+                <h1><a href="index.html">sharkcat</a></h1>
             </div>
         </div>
         <main>
@@ -105,6 +122,7 @@
                         <div><i class="nf nf-oct-x"></i></div>
                     </div>
                     <div class="content">
+                        <!-- consider hosting on nekoweb as well so i have a mirror basically -->
                         <p>Welcome to my website! This site exists for me to scream about my interests or whatever I want really.</p>
                         <p>This is a continuous work in progress as I add and/or remove content/pages or even redesign the whole thing so some things may change around on a semi-regular basis depending on how busy I am.</p>
                         <p>If some pages looked unfinished, its because they are and I am getting around to finishing them eventually.</p>
@@ -137,11 +155,46 @@
                         <h2>communities</h2>
                         <div><i class="nf nf-oct-x"></i></div>
                     </div>
-                    <div class="content" style="display: flex; align-items: center;">
-                        <div><script src="https://nuthead.neocities.org/ring/ring.js"></script></div>
-                        <a href="https://10-31.net/megan/jurassic/" style="margin-right: 10px"><img src="assets/fanlisting/jp.jpg" alt="Jurassic Park Fanlisting"></a>
-                        <a href="https://www.ladyrose.buruma.net/3ds/" style="margin-right: 10px"><img src="assets/fanlisting/3ds.jpg" alt="3DS Fanlisting"></a>
-                        <a href="https://decembergirl.net/xfiles/"><img src="assets/fanlisting/txf.png" alt="The X-Files Fanlisting"></a>
+                    <div class="content">
+                        <!--
+                        To Possibly Join:
+                        - furryring                      https://furryring.neocities.org/
+                        - catfolk webring                https://snewberry.neocities.org/catfolkwebring
+                        - vocaloid webring               https://webring.adilene.net/
+                        - transing the internet webring  https://transring.neocities.org/
+                        - xenics of the internet webring https://confettiguts.gay/xenics/
+                        - no ai webring                  https://baccyflap.com/noai/
+                        -->
+                        <!-- fanlistings -->
+                        <div>
+                            <a href="https://10-31.net/megan/jurassic/" style="margin-right: 10px"><img src="assets/fanlisting/jp.jpg" alt="Jurassic Park Fanlisting"></a>
+                            <a href="https://www.ladyrose.buruma.net/3ds/" style="margin-right: 10px"><img src="assets/fanlisting/3ds.jpg" alt="3DS Fanlisting"></a>
+                            <a href="https://decembergirl.net/xfiles/"><img src="assets/fanlisting/txf.png" alt="The X-Files Fanlisting"></a>
+                        </div>
+                        <!-- webrings -->
+                        <div id="webrings">
+                            <div class="wbrng" title="null webring">
+                                <script src="https://nuthead.neocities.org/ring/ring.js"></script>
+                            </div>
+                            <div class="wbrng">
+                                <map name="noaimini7">
+                                    <area href="https://baccyflap.com/noai" shape="rect" coords="15,3,72,27" target="_blank" alt="no ai webring" title="no ai webring">
+                                    <area href="https://baccyflap.com/noai/?prv&s=etc" target="_top" shape="rect" coords="3,6,12,27" alt="previous" title="previous">
+                                    <area href="https://baccyflap.com/noai/?nxt&s=etc" target="_top" shape="rect" coords="75,6,84,27" alt="next" title="next">
+                                </map>
+                                <img usemap="#noaimini7" src="https://baccyflap.com/noai/miniwidget7.gif" alt="a green-on-black grid with illuminated parts that spell out NO AI / WEBRING and two animated green arrows pointing left and right, bobbing up and down">
+                            </div>
+                            <div class="wbrng" title="transing the internet webring">
+                                <script src="https://transring.neocities.org/ring.js" data-widget="cloud"></script>
+                            </div>
+                            <div id="furryring">
+                                <script type="text/javascript" src="https://furryring.neocities.org/onionring-variables.js"></script>
+                                <script type="text/javascript" src="https://furryring.neocities.org/onionring-widget.js"></script>
+                            </div>
+                            <div class="wbrng" title="catfolk webring">
+                                <script src="https://snewberry.neocities.org/catfolk/webstring.js"></script>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -154,6 +207,7 @@
                         <a href="https://maia.crimew.gay/"><img src="assets/sites/maia-crimew-gay.png" alt="maia.crimew.gay site button"></a>
                         <a href='https://blinkies.cafe'><img src='assets/sites/blinkiesCafe.gif' alt='blinkies.cafe | make your own blinkies!'></a>
                         <a href="https://mxbo.neocities.org"><img src="assets/sites/mxbo.gif" alt="mxbo.neocities.org site button"></a>
+                        <a href="https://caby.neocities.org/cat/"><img src="https://caby.neocities.org/cat/plsdrawacat.gif"></a>
                     </div>
                 </div>
             </div>
@@ -186,19 +240,9 @@
                         <ul>
                             <li>Potentially re-add blog</li>
                             <li>landing page?</li>
+                            <li>fixed width fic download options? for txt files so like max 80 characters or however tf</li>
                         </ul>
                         <br>
-
-                        <!--
-                        <b>Fanlistings & Webrings To Possibly Join</b>
-                        <ul>
-                            <li><a href="https://furryring.neocities.org/">furryring</a></li>
-                            <li><a href="https://snewberry.neocities.org/catfolkwebring">catfolk webring</a></li>
-                            <li><a href="https://webring.adilene.net/">vocaloid webring</a></li>
-                            <li><a href="https://transring.neocities.org/">transing the internet webring</a></li>
-                            <li><a href="https://confettiguts.gay/xenics/">xenics of the internet webring</a></li>
-                            <li><a href="https://baccyflap.com/noai/">no ai webring</a></li>
-                        </ul>-->
                     </div>
                 </div>
 
@@ -210,7 +254,19 @@
                     </div>
                     <div class="content">
                         <!-- last 3 updates. consider making iframe of updatelog which would be put onto a seperate page for this -->
-                        
+                        <div class="section">
+                            <div class="bar">
+                                <h2>2024-XX-XX</h2>
+                                <div><i class="nf nf-oct-x"></i></div>
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li>Made progress on <a href="shrines/earthsea.html">Earthsea</a> shrine</li>
+                                    <li>Mirrored site to <a href="https://sharkcat.nekoweb.org">nekoweb!</a> site is exactly the same I just wanted to try it out.</li>
+                                    <li>New Fic! <a href="fics/the-continuous-act.html">the continuous act of creation</a></li>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="section">
                             <div class="bar">
                                 <h2>2024-10-07</h2>
@@ -238,19 +294,6 @@
                                     <li>joined x-files fanlisting</li>
                                     <li>made site button</li>
                                     <li>added links to identity pages on <a href="thoughts.html">thoughts</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div class="section">
-                            <div class="bar">
-                                <h2>2024-09-18</h2>
-                                <div><i class="nf nf-oct-x"></i></div>
-                            </div>
-                            <div class="content">
-                                <ul>
-                                    <li>added missing link to graphics page from <a href="collections.html">collections</a></li>
-                                    <li>miscellaneous formatting/cleaning up</li>
                                 </ul>
                             </div>
                         </div>
